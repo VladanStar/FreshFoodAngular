@@ -1,3 +1,9 @@
 .active-link{
 font-weight: bold;
+color:var(--primary-color);
 }
+/* .navbar-light .navbar-nav .nav-link .active-link {
+color: green;
+font-weight: bold;
+
+} */
