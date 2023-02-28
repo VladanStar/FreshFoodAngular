@@ -1,9 +1,10 @@
 .active-link{
 font-weight: bold;
 color:var(--primary-color);
+text-decoration: underline;
 }
-/* .navbar-light .navbar-nav .nav-link .active-link {
-color: green;
+/* .navbar-light .navbar-nav .nav-link.active-link {
+color: var(--primary-color);
 font-weight: bold;
 
 } */
