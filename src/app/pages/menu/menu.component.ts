@@ -8,7 +8,10 @@ import { OrderDetailsService } from 'src/app/services/order-details.service';
 })
 export class MenuComponent implements OnInit {
 
+foodData:any;
   constructor(private service: OrderDetailsService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+this.foodData=this.service.foodDetails;
+  }
 }
