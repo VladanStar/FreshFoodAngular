@@ -8,7 +8,7 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
 const routes: Routes = [
 {path:'', component:HomeComponent},
 {path:'menu' ,component:MenuComponent},
-{path:'menupage/:id', component:MenupageComponent},
+{path:'menu/:id',component:MenupageComponent},
 {path:'about', component:AboutComponent},
 {path:'contact',component: ContactComponent},
 
